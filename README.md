@@ -19,15 +19,15 @@ Enter the code for admin.py and models.py
 Execute Django admin and create details for 10 books
 
 ## PROGRAM
-'''
+```
 admin.py
 
 from django.contrib import admin
 from .models import railway,railwayAdmin
 admin.site.register(railway,railwayAdmin)
-'''
+```
 models.py
-
+```
 from django.db import models
 from django.contrib import admin
 class railway (models.Model):
@@ -37,10 +37,10 @@ class railway (models.Model):
     End_time=models.IntegerField()
     start_station_code=models.IntegerField()
     end_station_code=models.IntegerField()
-    
- 
+     
 class railwayAdmin(admin.ModelAdmin):
     list_display=('train_code','train_name','start_time','End_time','start_station_code','end_station_code',)
+```
 ## OUTPUT
 ![alt text](<ORM EXno2.png>)
 
