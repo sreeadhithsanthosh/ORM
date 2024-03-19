@@ -4,6 +4,10 @@
 ## AIM
 To develop a Django application to store and retrieve data from a railway database using Object Relational Mapping(ORM).
 
+## Entity Relationship diagram
+![WhatsApp Image 2024-03-19 at 11 22 38_f9e67879](https://github.com/sreeadhithsanthosh/ORM/assets/161282975/881f6f66-eb5d-4468-ab31-945f74a26f36)
+
+
 ## DESIGN STEPS
 
 ### STEP 1:
