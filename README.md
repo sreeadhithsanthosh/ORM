@@ -35,7 +35,7 @@ models.py
 from django.db import models
 from django.contrib import admin
 class railway (models.Model):
-    train_code=models.CharField(max_length=20,help_text="railway train_code")
+    train_code=models.CharField(max_length=20,help_text="railway train_code")(primary_key=true)
     train_name=models.CharField(max_length=100)
     start_time=models.IntegerField()
     End_time=models.IntegerField()
